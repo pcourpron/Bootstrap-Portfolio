@@ -1,0 +1,61 @@
+.contact{
+    position: relative;
+    top:55px;
+    text-align: left;
+    padding-top: 50px;
+}
+p{
+    color: grey
+}
+
+.heading:before {
+    content: '';
+    height: 10px;
+    width: 50px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    display: block;
+    background: #FFA804;
+}
+
+form {
+    border-style: solid;
+    border-width: 1px;
+    border-color:black;
+    padding: 10px;
+    justify-content: center;
+    text-align: center;
+    background-color: lemonchiffon;
+}
+input{
+    width: 100%;
+    background-color: lightGREY
+}
+textarea{
+    background-color: lightgrey;
+    width:100%
+}
+
+.footer{
+    text-align: center;
+    color: white;
+    width : 100%;
+    padding: 10px auto;
+
+}
+.container::after{
+    content: '';
+    height: 50px;
+    width: 100%;
+    display: block;
+
+}
+
+
+@media only screen and (max-width: 575px) {
+    
+
+}
+    
+    
+
